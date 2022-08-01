@@ -1,0 +1,29 @@
+/**************Tag Selectors******************/
+body {background-color: #F9F5E8;}
+hr {
+  border-color: #7eabb8;
+  border-style: dotted none none none;
+  border-width: 5px;
+  width: 7%;}
+h1 {font-size: 160px;
+    font-family:"Montserrat","Times New Roman";
+    }
+h2 {font-size: 80px;
+    font-family:"Montserrat Light", "Times New Roman";
+    }
+h3 {font-size: 50px;
+    font-family:"Montserrat Light", "Times New Roman";
+    }
+h4 {font-family:"Montserrat Light", "Times New Roman";
+    }
+img {text-align: center; opacity: 0; transition: opacity 0.5s;}
+
+img:hover {text-align: center; opacity: 1;}
+/**************Class Selectors******************/
+/*We can have multiple instances of one class in a doc.*/
+/* We will specify some CSS style for the class bacon*/
+.bacon {background-color: green;}
+
+/**************ID Selectors******************/
+/*We can only have one instance of a unique ID in a document.*/
+#heading {color: blue;}
